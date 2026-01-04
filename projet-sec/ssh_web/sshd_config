@@ -1,0 +1,8 @@
+Port 2222
+HostKey /home/vboxuser/Desktop/projet-sec/ssh_web/ssh_host_rsa_key
+AuthorizedKeysFile /home/vboxuser/Desktop/projet-sec/ssh_web/authorized_keys
+PidFile /home/vboxuser/Desktop/projet-sec/ssh_web/sshd.pid
+PasswordAuthentication no
+PubkeyAuthentication yes
+ChallengeResponseAuthentication no
+UsePAM no
